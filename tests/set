@@ -1,0 +1,7 @@
+$ rm -rf /tmp/tiva
+$ mkdir /tmp/tiva
+$ tivao add good "Hard Disk" --tiva-path /tmp/tiva
+$ tivao set 0 capacity 80GB --tiva-path /tmp/tiva
+$ tivao get 0 capacity --tiva-path /tmp/tiva
+80GB
+$ 

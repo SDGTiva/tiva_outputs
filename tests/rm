@@ -1,0 +1,9 @@
+$ rm -rf /tmp/tiva
+$ mkdir /tmp/tiva
+$ tivao add good "Book" --tiva-path /tmp/tiva
+$ ls /tmp/tiva/outputs
+0.json
+$ tivao rm 0 --tiva-path /tmp/tiva
+$ ls /tmp/tiva/outputs
+|
+$ 

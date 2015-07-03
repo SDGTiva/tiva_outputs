@@ -1,0 +1,14 @@
+$ rm -rf /tmp/tiva
+$ mkdir /tmp/tiva
+$ tivao add good "Hard Disk" --tiva-path /tmp/tiva
+$ ls /tmp/tiva/outputs
+0.json
+$ cat /tmp/tiva/outputs/0.json
+{"type": "good", "name": "Hard Disk"}|
+$ tivao add service "Computer maintenance" --tiva-path /tmp/tiva
+$ ls /tmp/tiva/outputs
+0.json
+1.json
+$ cat /tmp/tiva/outputs/1.json
+{"type": "service", "name": "Computer maintenance"}|
+$ 

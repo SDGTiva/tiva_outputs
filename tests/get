@@ -1,0 +1,6 @@
+$ rm -rf /tmp/tiva
+$ mkdir /tmp/tiva
+$ tivao add good "Book" --tiva-path /tmp/tiva
+$ tivao get 0 type --tiva-path /tmp/tiva
+good
+$ 
